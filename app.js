@@ -17,6 +17,9 @@ const app = express();
 
 // ℹ️ This function is getting exported from the config folder. It runs most middlewares
 require('./config')(app);
+app.use(express.static("public"))
+const favicon = require('serve-favicon')
+app.use(favicon(__dirname + "/public/images/favicon.ico"))
 
 
 

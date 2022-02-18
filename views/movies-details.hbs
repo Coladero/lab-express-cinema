@@ -1,16 +1,18 @@
-<a href="/movies">Go Back</a><br><br>
+    <div class="menu-details">
+<a href="/movies">Go Back</a>
+    </div>  
 <div class="container">
-    <img src="{{response.image}}" alt="">
+    <img src="{{response.image}}" alt="" width="450px" height="450px">
     <div class="data-movie">
-    <h3>{{response.title}}</h3>
-    <h4>Director: {{response.director}}</h4>
-    <h4>Stars:</h4>
+    <h3>{{response.title}}</h3><br>
+    <h4>Director: {{response.director}}</h4><br>
+    <h4>Stars:</h4><br>
     {{#each response.stars}}
     <ul>
-        <li>{{this}}</li>
+        <li>{{this}}</li><br>
     </ul>
     {{/each}}
-    <p>{{response.description}}</p>
+    <p>{{response.description}}</p><br>
     <p>{{response.showtimes}}</p>
     </div>
 </div>

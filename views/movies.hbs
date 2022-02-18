@@ -1,12 +1,21 @@
 
 <div>
-<h1>Choose your Movie</h1>
-<a href="/">Home</a><br>
-{{#each response}}
+    <div class="title-h1">
+<p>Choose your Movie</p><br>
+    </div>
     
-    <img src="{{image}}" alt="movie">
+    <div class="menu-movi">
+<a href="/">Home</a>
+    </div>
+        
+{{#each response}}
+    <div class="movie-ima">
+        <div>
+    <img src="{{image}}" alt="movie" width="450px" height="450px">    
     <h4>{{title}}</h4>
     <h3><a href="/movies/{{this.id}}">See more</a></h3><br>
+        </div>
+    </div>
 {{/each}}
 
 </div>
