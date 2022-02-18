@@ -1,0 +1,12 @@
+
+<div>
+<h1>Choose your Movie</h1>
+<a href="/">Home</a><br>
+{{#each response}}
+    
+    <img src="{{image}}" alt="movie">
+    <h4>{{title}}</h4>
+    <h3><a href="/movies/{{this.id}}">See more</a></h3><br>
+{{/each}}
+
+</div>
