@@ -44,10 +44,14 @@ a {
   text-decoration: none;
 }
 .menu-movi{
+  margin-top:150px;
   text-align: left;
   padding-left: 50px;
   font-size: 30px;
   background-color: crimson;
+  position: fixed;
+  top: 0;
+  width:100%;
 
 }
 

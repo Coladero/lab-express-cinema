@@ -84,7 +84,7 @@ const movies = [
 ];
 
 // Add here the script that will be run to actually seed the database (feel free to refer to the previous lesson)
-const Movies = require("../models/movies.model");
+const Movies = require("../models/movies.model.js");
 
 //insertar esto a la DB.
 const mongoose = require("mongoose");
