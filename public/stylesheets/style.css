@@ -10,7 +10,7 @@ a {
 }
 .bg{
   display: flex;
-  padding-top: 50px;
+  padding-top: 20px;
   text-align: center;
   justify-content: center;
 }
@@ -18,15 +18,15 @@ a {
 .title-index{
   position: absolute;
   font-size: 70px;
-  bottom:150px;
-  right:400px;
+  bottom:1%;
+  right:230px;
   padding:7em 1.5em;
 }
 
 .boton-ini{
   position: absolute;
-  bottom:500px;
-  right:500px;
+  bottom:300px;
+  right:250px;
   padding:7em 1.5em;
   background-color: #e0a670;
   border: 3xp coral;
@@ -80,9 +80,9 @@ a {
   flex-grow: 1;
   width: auto;
   height: auto;   
-  margin: 10px 50px 50px 50px;
-  padding: 150px;
-  max-width: 190px;
+  margin: 100px 40px 100px 100px;
+  padding: 100px;
+  max-width: 150px;
 
 }
 
@@ -91,10 +91,10 @@ a {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 60%;
+    width: 70%;
     height: auto;   
-    margin: 10px 10px 50px 50px;
-    padding: 100px ;
+    margin: 10px 10px 10px 10px;
+    padding: 70px ;
 }
 .data-movie{
   margin:10px;

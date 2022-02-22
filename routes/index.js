@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const Movies = require("../models/movies-model");
+const Movies = require("../models/movies.model");
 /* GET home page */
 router.get("/", (req, res, next) => res.render("index"));
 
